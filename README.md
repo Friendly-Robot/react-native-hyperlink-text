@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
 A string containing urls or not **(refer to hyperlinks)** that will be converted to a series of `<Text>` wrapping the content.
 
 ### hyperlinks
-An array of objects each with a key value pair for assigning urls to keywords.
+An array of objects each with a key value pair for assigning urls to keywords. <br>
 For example: `[{ portfolio: 'https://friendly-robot.netlify.com/portfolio' }]`
 
 This will map every instance of "portfolio" and transform it into a link that directs to that url. This means that the `value` and `hyperlinks` in the example above will look like this:
