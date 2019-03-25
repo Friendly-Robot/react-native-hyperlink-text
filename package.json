@@ -59,7 +59,7 @@
   },
   "scripts": {
     "build": "babel src --out-dir dist --ignore __tests__",
-    "release": "yarn build && npm version minor && npm publish",
+    "release": "yarn build && npm version patch && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "0.2.0"
