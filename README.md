@@ -31,13 +31,14 @@ const styles = StyleSheet.create({
 ## Props
 
 ### value
-A string containing urls or not (refer to hyperlinks) that will be converted to a series of `<Text>` wrapping the content.
+A string containing urls or not **(refer to hyperlinks)** that will be converted to a series of `<Text>`s wrapping the content.
 
 ### hyperlinks
 An array of objects each with a key value pair for assigning urls to keywords.
+
 For example: `[{ portfolio: 'https://friendly-robot.netlify.com/portfolio' }]`
 
-This will map every instance of "portfolio" and transform it into a link that directs to that url. This means that the `value` in the example above will look like this:
+This will map every instance of "portfolio" and transform it into a link that directs to that url. This means that the `value` and `hyperlinks` in the example above will look like this:
 
 ```javascript
 <HyperlinkText
@@ -61,7 +62,7 @@ A style object to apply only to hyperlink `<Text>` elements.
 </p>
 
 ## TODO
-Map `hyperlinks` backwards as well, meaning if the link is provided in the string and every instance of it needs to be shortened to a keyword instead, then do that as well as vice versa (which is does currently).
+Map `hyperlinks` backwards as well, meaning if the link is provided in the string so every instance of it will need to be shortened to a keyword instead, then do that as well as vice versa (which is does currently).
 
 ## License
 License [The MIT License](http://opensource.org/licenses/MIT)
