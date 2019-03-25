@@ -28,6 +28,9 @@ const styles = StyleSheet.create({
   linkStyle={styles.link}
 />
 ```
+## Installation
+`npm i -S react-native-hyperlink-text`
+
 ## Props
 
 ### value
