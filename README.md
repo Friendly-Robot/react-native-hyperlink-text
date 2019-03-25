@@ -28,6 +28,10 @@ const styles = StyleSheet.create({
   linkStyle={styles.link}
 />
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/friendly-robot/react-native-hyperlink-text/master/screenshot.png" width="380" alt="React Native Hyperlink Text">
+</p>
+
 ## Installation
 `npm i -S react-native-hyperlink-text`
 
@@ -58,10 +62,6 @@ A style object to apply to all `<Text>` elements.
 
 ### linkStyle
 A style object to apply only to hyperlink `<Text>` elements.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/friendly-robot/react-native-hyperlink-text/master/screenshot.png" width="380" alt="React Native Hyperlink Text">
-</p>
 
 ## TODO
 Map `hyperlinks` backwards as well, meaning if the link is provided in the string so every instance of it will need to be shortened to a keyword instead, then do that as well as vice versa (which is does currently).
