@@ -1,8 +1,8 @@
 {
   "_from": "react-native-hyperlink-text",
-  "_id": "react-native-hyperlink-text@1.0.0",
+  "_id": "react-native-hyperlink-text",
   "_inBundle": false,
-  "_integrity": "sha512-vUK7YX1s+dI0PmEkm7cwiC4nZFAHtzxBJuSdv5wMJIM14PUeX0Wjr1kcW71SSIV6VWONVYVILrqYzUNlsioI0Q==",
+  "_integrity": "sha512-NvQC802y1p37M[...]Ina6XIrI4WSyQ==",
   "_location": "/react-native-hyperlink-text",
   "_phantomChildren": {},
   "_requested": {
@@ -20,7 +20,7 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/react-native-hyperlink-text/-/react-native-hyperlink-text-0.3.0.tgz",
-  "_shasum": "eb3f1ee0bc20e7e57a731442a41c0d7b6f974558",
+  "_shasum": "1fb0ff5da27bc2b1351fc0debedbb2d83e18e50d",
   "_spec": "react-native-hyperlink-text",
   "_where": "/Users/andy/Desktop/righton",
   "author": {
