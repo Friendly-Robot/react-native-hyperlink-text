@@ -68,7 +68,7 @@ A style object to apply to all `<Text>` elements.
 A style object to apply only to hyperlink `<Text>` elements.
 
 ## TODO
-Map `hyperlinks` backwards as well, meaning if the link is provided in the string so every instance of it will need to be shortened to a keyword instead, then do that as well as vice versa (which is does currently).
+Map `hyperlinks` backwards as well, meaning if the link is provided in the string, every instance of it will be shortened to a keyword. Currently the opposite is true: keywords are turned into links.
 
 ## License
 License [The MIT License](http://opensource.org/licenses/MIT)
