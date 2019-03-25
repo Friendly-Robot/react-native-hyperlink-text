@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
 />
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/friendly-robot/react-native-hyperlink-text/master/screenshot.png" width="380" alt="React Native Hyperlink Text">
+  <img src="https://raw.githubusercontent.com/friendly-robot/react-native-hyperlink-text/master/screenshot1.png" width="380" alt="React Native Hyperlink Text">
 </p>
 
 ## Installation
@@ -50,13 +50,17 @@ This will map every instance of "portfolio" and transform it into a link that di
 <HyperlinkText
   value={'Vist my website and check out my portfolio!'}
   hyperlinks={[
-    { website: 'https://friendly-robot.netlify.com' }
+    { website: 'https://friendly-robot.netlify.com' },
     { portfolio: 'https://friendly-robot.netlify.com/portfolio' }
   ]}
   baseStyle={styles.base}
   linkStyle={styles.link}
 />
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/friendly-robot/react-native-hyperlink-text/master/screenshot2.png" width="380" alt="React Native Hyperlink Text">
+</p>
+
 ### baseStyle
 A style object to apply to all `<Text>` elements.
 
