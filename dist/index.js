@@ -28,7 +28,7 @@ export default class HyperlinkText extends PureComponent {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (this.props.value !== nextProps.value || this.props.textStyle !== nextProps.textStyle || this.props.linkStyle !== nextProps.linkStyle || this.props.hyperlinks !== nextProps.hyperlinks) {
+    if (this.props.value !== nextProps.value || this.props.baseStyle !== nextProps.baseStyle || this.props.linkStyle !== nextProps.linkStyle || this.props.hyperlinks !== nextProps.hyperlinks) {
       if (nextProps.hyperlinks.length) {
         this.setState({ output: this.composeHyperlinkProvidedText(nextProps.value, nextProps.hyperlinks, nextProps.linkStyle, nextProps.openLink) });
       } else {
@@ -38,11 +38,11 @@ export default class HyperlinkText extends PureComponent {
   }
 
   render() {
-    const { textStyle } = this.props;
+    const { baseStyle } = this.props;
     const { output } = this.state;
     return React.createElement(
       Text,
-      { style: [defaultStyle.root, textStyle] },
+      { style: [defaultStyle.root, baseStyle] },
       output
     );
   }
@@ -172,14 +172,13 @@ export default class HyperlinkText extends PureComponent {
 }
 HyperlinkText.propTypes = {
   value: string,
-  textStyle: oneOfType(object, arrayOf(object)),
+  baseStyle: oneOfType(object, arrayOf(object)),
   linkStyle: oneOfType(object, arrayOf(object)),
   hyperlinks: arrayOf(object)
 };
 HyperlinkText.defaultProps = {
   value: '',
-  bodyStyle: {},
-  textStyle: {},
+  baseStyle: {},
   linkStyle: {},
   hyperlinks: []
 };
